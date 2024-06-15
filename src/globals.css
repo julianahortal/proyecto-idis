@@ -1,11 +1,218 @@
+body {
+  background-color: #eff6eef4;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'Monument Extended';
+  margin: 0;
+  padding: 0;
+}
+  body .grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 00;
+    transform: translateZ(1);
+    
+   }
+    .grain:before {
+      content: "";
+      top: -10rem;
+      left: -10rem;
+      width: calc(100% + 20rem);
+      height: calc(100% + 20rem);
+      z-index: 9999;
+      position: fixed;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
+      opacity: 0.15;
+      pointer-events: none;
+      -webkit-animation: noise 1s steps(2) infinite;
+      animation: noise 1s steps(2) infinite;
+    }
+  
+
+    @-webkit-keyframes noise {
+      to { transform: translate3d(-7rem,0,0) }
+    }
+
+    @keyframes noise {
+      0% { transform: translate3d(0,9rem,0) }
+      10% { transform: translate3d(-1rem,-4rem,0) }
+      20% { transform: translate3d(-8rem,2rem,0) }
+      30% { transform: translate3d(9rem,-9rem,0) }
+      40% { transform: translate3d(-2rem,7rem,0) }
+      50% { transform: translate3d(-9rem,-4rem,0) }
+      60% { transform: translate3d(2rem,6rem,0) }
+      70% { transform: translate3d(7rem,-8rem,0) }
+      80% { transform: translate3d(-9rem,1rem,0) }
+      90% { transform: translate3d(6rem,-5rem,0) }
+      to { transform: translate3d(-7rem,0,0) }
+    }
+  
+  .container{
+    max-width: 1300px;
+    margin:auto;
+    padding: 0px 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-items: center;
+  padding: 20px;
+}
+
+
+h1,h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+p{
+  padding: 1.5em 4em;
+  font-size: 1.5em;
+
+}
+
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .data-display-item {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  
 }
+
+.post {
+  background: #00853f;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease;
+}
+
+.post:hover {
+  transition: all 100ms ease;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.post:active {
+  transition: all 50ms ease;
+  transform: scale(1.03);
+  background: #00853f;
+}
+
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 10px;
+
+}
+
+button:after {
+  content: "";
+  background-color: #00853f;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+.navbar{
+ display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+
+}
+
+.data-display-item{
+  justify-content: center;
+    
+}
+
+.expanded-feature-1 {
+  background-image: url("fondoIDIS1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 26em;
+padding: 0 5em;
+background-color: black;
+}
+
+.expanded-feature-2 {
+  background-image: url("fondoIDIS.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 26em;
+padding: 0 5em;
+}
+
+.expanded-feature-3 {
+  background-image: url("fondoIDIS2.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 26em;
+padding: 0 5em;
+margin-bottom: 3em;
+}
+
+.return-main{
+text-align:  center;
+}
+.return-main p{
+  font-size: 1em;
+  padding: 0;;
+
+
+}
+
+
+footer{
+  font-size: 0.5em;
+  text-align: center;
+  background-color: #00853f;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+
 
