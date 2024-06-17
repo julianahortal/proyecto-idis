@@ -1,5 +1,6 @@
 {
   "name": "proyectoidis-informe-juliana-hortal",
+  "homepage": "https://julianahortal.github.io/proyecto-idis/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +41,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },  
-  "homepage": "https://julianahortal.github.io/proyecto-idis/",
+  }
 }
