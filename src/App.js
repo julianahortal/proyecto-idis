@@ -1,5 +1,5 @@
 import './globals.css'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import jsonData from './datap.json';
 
 
@@ -11,7 +11,6 @@ function App() {
   const [obras, setObras] = useState([])
   const [sitios, setSitios] = useState([])
   const [terminos, setTerminos] = useState([])
-  const [resto, setResto] = useState([])
 
 
   const handleFilterChange = (filter) => {
@@ -26,17 +25,17 @@ function App() {
     let res = [];
 
     filtered.forEach((item) => {
-      if (item["CATEGORÍA"] == "ARTISTAS") {
+      if (item["CATEGORÍA"] === "ARTISTAS") {
         art.push(item)
-      } else if (item["CATEGORÍA"] == "DISPOSITIVOS") {
+      } else if (item["CATEGORÍA"] === "DISPOSITIVOS") {
         dis.push(item)
-      } else if (item["CATEGORÍA"] == "LIBROS") {
+      } else if (item["CATEGORÍA"] === "LIBROS") {
         lib.push(item)
-      } else if (item["CATEGORÍA"] == "OBRA") {
+      } else if (item["CATEGORÍA"] === "OBRA") {
         obr.push(item)
-      } else if (item["CATEGORÍA"] == "SITIOS") {
+      } else if (item["CATEGORÍA"] === "SITIOS") {
         sit.push(item)
-      } else if (item["CATEGORÍA"] == "TERMINOS") {
+      } else if (item["CATEGORÍA"] === "TERMINOS") {
         ter.push(item)
       } else {
         res.push(item)
