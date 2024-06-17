@@ -22,7 +22,6 @@ function App() {
     let obr = [];
     let sit = [];
     let ter = [];
-    let res = [];
 
     filtered.forEach((item) => {
       if (item["CATEGORÍA"] === "ARTISTAS") {
@@ -37,8 +36,6 @@ function App() {
         sit.push(item)
       } else if (item["CATEGORÍA"] === "TERMINOS") {
         ter.push(item)
-      } else {
-        res.push(item)
       }
     });
 
@@ -48,7 +45,6 @@ function App() {
     setObras(obr)
     setSitios(sit)
     setTerminos(ter)
-    setResto(res)
   }
 
   const handleReset = () => {
@@ -60,7 +56,6 @@ function App() {
     setObras([]);
     setSitios([]);
     setTerminos([]);
-    setResto([]);
   }
 
   return (
