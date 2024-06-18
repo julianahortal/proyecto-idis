@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/proyecto-idis/static/css/main.17791991.css",
-    "main.js": "/proyecto-idis/static/js/main.f6e538dd.js",
+    "main.js": "/proyecto-idis/static/js/main.ce457b7b.js",
     "static/js/488.e33f850e.chunk.js": "/proyecto-idis/static/js/488.e33f850e.chunk.js",
     "index.html": "/proyecto-idis/index.html",
     "main.17791991.css.map": "/proyecto-idis/static/css/main.17791991.css.map",
-    "main.f6e538dd.js.map": "/proyecto-idis/static/js/main.f6e538dd.js.map",
+    "main.ce457b7b.js.map": "/proyecto-idis/static/js/main.ce457b7b.js.map",
     "488.e33f850e.chunk.js.map": "/proyecto-idis/static/js/488.e33f850e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17791991.css",
-    "static/js/main.f6e538dd.js"
+    "static/js/main.ce457b7b.js"
   ]
 }
