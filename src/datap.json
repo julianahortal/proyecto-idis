@@ -1948,5 +1948,35 @@
         "TEXTO": "-",
         "FECHA": "ERROR",
         "ENLACES": "-"
-    }
+    },
+    {
+        "\"ID\"": 37043,
+        "Value.post.post_title": "The Walking Conurban",
+        "Value.post.guid": "https://proyectoidis.org/?p=37043",
+        "Value.post.image": "https://proyectoidis.org/wp-content/uploads/2024/06/Snapinsta.app_375399948_1795081390909737_793340951655078032_n_1080.jpg",
+        "CATEGORÍA": "SITIOS",
+        "TEXTO": "ERROR",
+        "FECHA": "ERROR",
+        "ENLACES": "-"
+    },
+    {
+        "\"ID\"": 36714,
+        "Value.post.post_title": "Video Club",
+        "Value.post.guid": "https://proyectoidis.org/?p=36714",
+        "Value.post.image": "https://proyectoidis.org/wp-content/uploads/2024/05/wyyEmN983_2000x1500__1-1.jpg",
+        "CATEGORÍA": "TERMINOS",
+        "TEXTO": "ERROR",
+        "FECHA": "ERROR",
+        "ENLACES": "-"
+    },
+    {
+        "\"ID\"": 37302,
+        "Value.post.post_title": "Caloi en su tinta",
+        "Value.post.guid": "https://proyectoidis.org/?p=37302",
+        "Value.post.image": "https://proyectoidis.org/wp-content/uploads/2024/06/caloi.jpg",
+        "CATEGORÍA": "ARTISTAS",
+        "TEXTO": "ERROR",
+        "FECHA": "ERROR",
+        "ENLACES": "-"
+    },
 ]
