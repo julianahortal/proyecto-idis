@@ -123,7 +123,7 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin: 0 10px;
+  margin: 10px 0;
 
 }
 
@@ -147,6 +147,7 @@ button:hover:after {
 @media (min-width: 768px) {
   button {
     padding: 13px 50px 13px;
+    margin: 0 10px; /* Update margin for larger screens */
   }
 }
 
@@ -167,7 +168,7 @@ button:hover:after {
 }
 
 .expanded-feature-1 {
-  background-image: url("fondoIDIS1.png");
+background-image: url("fondoIDIS1.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -215,4 +216,17 @@ footer{
   font-weight: 800;
 }
 
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .filter-selector {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+
+  .filter-selector button {
+    width: 100%; /* Make buttons full width */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+}
 
