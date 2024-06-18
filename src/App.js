@@ -90,7 +90,7 @@ function App() {
         </div>    
 
         {showDefaultParagraph && (
-       
+       <>
           <div className='two-column'> 
             <div>
                 <h2><u>Introducción</u></h2>
@@ -98,7 +98,8 @@ function App() {
                    Mi tarea fue aquella de verificar que los enlaces funcionaran correctamente, que las imágenes se vieran bien y que las fechas estuvieran correctas. En total, se revisaron alrededor de <strong>250 posteos IDIS</strong> (aproximadamente), encontrando que un <strong>11,58%</strong> tenían <u>errores de texto</u>, un <strong>15,43%</strong> <u>discrepancias en las fechas</u> y un <strong>23,03%</strong> llevaban a <u>enlaces rotos.</u><br/>
                    Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
             </div>      
-            <div className='square-1'> </div>
+            <div className='square-1'> 
+            </div>
           </div>
           <div className='two-column'> 
             <div>
@@ -109,6 +110,7 @@ function App() {
             </div>      
             <div className='square-2'></div>
           </div>
+          </>
       )}
        {!showDefaultParagraph && (
       <div className="data-display">
