@@ -9,5 +9,5 @@ Creado con [Create React App](https://github.com/facebook/create-react-app).
 
 ## Tareas
 
-La investigación consiste en clasificar y analizar información sobre los principales desarrollos de dispositivos y los antecedentes en la producción visual y sonora realizada con sistemas tecnológicos de creación, almacenamiento, manipulación y transmisión de imágenes y sonidos, analógicos y digitales. Focalizando la mirada en el arte de sistemas y en experiencias pasadas y presentes realizadas por diseñadores, artistas, grupos de comunicación comunitaria y socio-política e investigadores internacionales , principalmente de América del Sur.
+La investigación consiste en clasificar y analizar información sobre los principales desarrollos de dispositivos y los antecedentes en la producción visual y sonora realizada con sistemas tecnológicos de creación, almacenamiento, manipulación y transmisión de imágenes y sonidos, analógicos y digitales. Focalizando la mirada en el arte de sistemas y en experiencias pasadas y presentes realizadas por diseñadores, artistas, grupos de comunicación comunitaria y socio-política e investigadores internacionales, principalmente de América del Sur.
 
