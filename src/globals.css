@@ -237,7 +237,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    border: 1px solid #ccc;
 }
 
 .left-column, .right-column {
@@ -258,7 +257,7 @@ footer{
 
 /* Media query for mobile view */
 @media (max-width: 767px) {
-  .filter-selector {
+  .filter-selector, .two-column {
     display: flex;
     flex-direction: column; /* Stack buttons vertically */
     align-items: center;
@@ -268,5 +267,7 @@ footer{
     width: 100%; /* Make buttons full width */
     margin: 10px 0; /* Add margin for spacing */
   }
+
+  
 }
 
