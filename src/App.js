@@ -1,4 +1,5 @@
 import './globals.css'
+import imgEj from './fondoIDIS.png'
 import React, { useState } from 'react';
 import jsonData from './datap.json';
 
@@ -61,8 +62,6 @@ function App() {
   return (
     
     <body className='grain'>
-
-
     <div className='container'>
      <div className="navbar">
             <nav>
@@ -70,7 +69,7 @@ function App() {
               <h1>Proyecto IDIS - Juliana Hortal</h1>
               {!showDefaultParagraph && (
                 <div  className='return-main' onClick={handleReset}>
-                  <p>Volver a Objetivos</p>
+                  <p><u>Volver a Objetivos</u></p>
                 </div>
               )}
               </div>
@@ -100,19 +99,19 @@ function App() {
          Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
          <div className='two-column-feature'>
             <div className='feature-text'>
-                <h2>Tareas</h2>
+                <h2><u>Objetivos</u></h2>
             <p>Coloca tu texto aquí...</p>
             </div>
             <div className='feature-image'>
-              <img src="./fondoIDIS.png" alt='a '/>
+              <img src={imgEj} alt='a '/>
             </div>
           </div>
          <div className='two-column-feature'>
             <div className='feature-image'>
-              <img src="./fondoIDIS.png" alt=' b'/>
+              <img src= {imgEj} alt=' b'/>
             </div>
           <div className='feature-text'>
-                <h2>Tareas</h2>
+                <h2><u>Objetivos</u></h2>
             <p>Coloca tu texto aquí...</p>
             </div>
           </div>
