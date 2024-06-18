@@ -112,7 +112,9 @@ function App() {
           {artistas.map((item) => (
             <div className='post' key={item.ID}>
               <a href={item["Value.post.guid"]}>
-                <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+                <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
               </a>
             </div>
           ))}
@@ -122,7 +124,9 @@ function App() {
           {dispositivos.map((item) => (
           <div className='post' key={item.ID}>
             <a href={item["Value.post.guid"]}>
-              <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+              <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
             </a>
           </div>
           ))}
@@ -133,7 +137,9 @@ function App() {
           {libros.map((item) => (
             <div className='post' key={item.ID}>
               <a href={item["Value.post.guid"]}>
-                <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+                <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
               </a>
             </div>
           ))}
@@ -143,7 +149,9 @@ function App() {
         {obras.map((item) => (
           <div className='post' key={item.ID}>
             <a href={item["Value.post.guid"]}>
-              <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+              <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
             </a>
           </div>
         ))}
@@ -154,7 +162,9 @@ function App() {
         {sitios.map((item) => (
           <div className='post' key={item.ID}>
             <a href={item["Value.post.guid"]}>
-              <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+              <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
             </a>
           </div>
         ))}
@@ -164,7 +174,9 @@ function App() {
         {terminos.map((item) => (
           <div className='post' key={item.ID}>
             <a href={item["Value.post.guid"]}>
-              <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} />
+              <div className="post-overlay">
+                      <img src={item["Value.post.image"]} alt={item["Value.post.post_title"]} title={item["Value.post.post_title"]}/>
+                </div>
             </a>
           </div>
         ))}
