@@ -188,33 +188,32 @@ button:hover:after {
     
 }
 
-.expanded-feature-1 {
-background-image: url("fondoIDIS1.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 26em;
-padding: 0 5em;
-background-color: black;
+.two-column-feature {
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5em;
+  height: 26em;
+  background-color: black;
+  color: white;
+  margin-bottom: 3em;
 }
 
-.expanded-feature-2 {
-  background-image: url("fondoIDIS.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 26em;
-padding: 0 5em;
+.feature-text {
+  flex: 1; /* Take up remaining space */
+  padding-right: 1em; /* Adjust spacing */
 }
 
-.expanded-feature-3 {
-  background-image: url("fondoIDIS2.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 26em;
-padding: 0 5em;
-margin-bottom: 3em;
+.feature-image {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+}
+
+.feature-image img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  max-height: 100%; /* Ensure image does not exceed container height */
 }
 
 .return-main{
