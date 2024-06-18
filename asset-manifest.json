@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/proyecto-idis/static/css/main.1bb2f83d.css",
+    "main.css": "/proyecto-idis/static/css/main.348db210.css",
     "main.js": "/proyecto-idis/static/js/main.14b1e8e9.js",
     "static/js/488.e33f850e.chunk.js": "/proyecto-idis/static/js/488.e33f850e.chunk.js",
     "static/media/fondoIDIS.png": "/proyecto-idis/static/media/fondoIDIS.03f93fc66946725f7bdb.png",
     "index.html": "/proyecto-idis/index.html",
-    "main.1bb2f83d.css.map": "/proyecto-idis/static/css/main.1bb2f83d.css.map",
+    "main.348db210.css.map": "/proyecto-idis/static/css/main.348db210.css.map",
     "main.14b1e8e9.js.map": "/proyecto-idis/static/js/main.14b1e8e9.js.map",
     "488.e33f850e.chunk.js.map": "/proyecto-idis/static/js/488.e33f850e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bb2f83d.css",
+    "static/css/main.348db210.css",
     "static/js/main.14b1e8e9.js"
   ]
 }
