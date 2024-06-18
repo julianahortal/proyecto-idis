@@ -104,12 +104,12 @@ function App() {
             <p>Coloca tu texto aquí...</p>
             </div>
             <div className='feature-image'>
-              <img src='fondoIDIS.png' alt='a '/>
+              <img src='/fondoIDIS.png' alt='a '/>
             </div>
           </div>
          <div className='two-column-feature'>
             <div className='feature-image'>
-              <img src='fondoIDIS.png' alt=' b'/>
+              <img src='/fondoIDIS.png' alt=' b'/>
             </div>
           <div className='feature-text'>
                 <h2>Tareas</h2>
