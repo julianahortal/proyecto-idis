@@ -94,6 +94,8 @@ img {
   background: #00853f;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease;
+  margin: 10px;
+  position: relative;
 }
 
 .post:hover {
@@ -106,6 +108,25 @@ img {
   transition: all 50ms ease;
   transform: scale(1.03);
   background: #00853f;
+}
+
+.post-overlay {
+  position: relative;
+}
+.post img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.post:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
 }
 
 
