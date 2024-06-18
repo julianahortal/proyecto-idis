@@ -109,13 +109,10 @@ function App() {
           <div className='feature-text'>
               <p>Durante este cuatrimestre, mi objetivo inicial era <strong>arreglar la mayor cantidad posible de posteos en el sitio web.</strong> Con el tiempo, ese objetivo se fue afinando hasta lograr el resultado actual. <br/> 
                  Mi tarea fue aquella de verificar que los enlaces funcionaran correctamente, que las imágenes se vieran bien y que las fechas estuvieran correctas. En total, se revisaron alrededor de <strong>250 posteos IDIS</strong> (aproximadamente), encontrando que un <strong>11,58%</strong> tenían <u>errores de texto</u>, un <strong>15,43%</strong> <u>discrepancias en las fechas</u> y un <strong>23,03%</strong> llevaban a <u>enlaces rotos.</u><br/>
-                 Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>            </div>
-            <div className='feature-image'>
+                 Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
+          </div>
             </div>
           </div>
-       </div>
-       </div>
-
       )}
        {!showDefaultParagraph && (
       <div className="data-display">
