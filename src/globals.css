@@ -232,6 +232,30 @@ footer{
   font-weight: 800;
 }
 
+.two-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.left-column {
+    order: 1; /* Adjust the order if you want image on left */
+    text-align: left;
+}
+
+.right-column {
+    order: 2; /* Adjust the order if you want image on left */
+    text-align: right;
+}
+
+
 /* Media query for mobile view */
 @media (max-width: 767px) {
   .filter-selector {
