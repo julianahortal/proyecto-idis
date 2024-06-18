@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/proyecto-idis/static/css/main.14167134.css",
-    "main.js": "/proyecto-idis/static/js/main.a8bf4ab9.js",
+    "main.js": "/proyecto-idis/static/js/main.e0482b1b.js",
     "static/js/488.e33f850e.chunk.js": "/proyecto-idis/static/js/488.e33f850e.chunk.js",
     "static/media/fondoIDIS2.png": "/proyecto-idis/static/media/fondoIDIS2.deb58440c3e25fe447b5.png",
     "static/media/fondoIDIS1.png": "/proyecto-idis/static/media/fondoIDIS1.bfc67c6dc3f31c5eaacd.png",
     "static/media/fondoIDIS.png": "/proyecto-idis/static/media/fondoIDIS.03f93fc66946725f7bdb.png",
     "index.html": "/proyecto-idis/index.html",
     "main.14167134.css.map": "/proyecto-idis/static/css/main.14167134.css.map",
-    "main.a8bf4ab9.js.map": "/proyecto-idis/static/js/main.a8bf4ab9.js.map",
+    "main.e0482b1b.js.map": "/proyecto-idis/static/js/main.e0482b1b.js.map",
     "488.e33f850e.chunk.js.map": "/proyecto-idis/static/js/488.e33f850e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14167134.css",
-    "static/js/main.a8bf4ab9.js"
+    "static/js/main.e0482b1b.js"
   ]
 }
