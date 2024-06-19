@@ -242,6 +242,7 @@ footer{
 
 .two-column h2{
   padding: .5em;
+  margin: 0px;
 }
 
 .left-column, .right-column {
