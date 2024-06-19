@@ -73,9 +73,8 @@ h1, h2 {
   font-family: 'Courier New', Courier, monospace;
 }
 p{
-  padding: 1.5em 2em;
-  font-size: 1em;
-
+    font-size: 1.2em;
+    padding: 1.5em .5em;
 }
 
 img {
@@ -235,14 +234,16 @@ footer{
 .two-column {
     all: unset; 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 20px;
+  
 }
 
 .two-column h2{
   padding: .5em 1em .5em .5em ;
   margin: 0px;
+  
 }
 
 .left-column, .right-column {
@@ -257,7 +258,7 @@ footer{
 
 .right-column {
     order: 2; /* Adjust the order if you want image on left */
-    text-align: right;
+    text-align: left;
 }
 
 .img-square {
