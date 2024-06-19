@@ -233,10 +233,12 @@ footer{
 }
 
 .two-column {
+    all: unset; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    font-size: 1em;
 }
 
 .left-column, .right-column {
