@@ -99,7 +99,7 @@ function App() {
                      Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
               </div>      
               <div className="right-column"> 
-                <img className="img-square" src="src/fondoIDIS.png" alt=" "/>
+                <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_a.png" alt=" "/>
               </div>
           </div>
           <div className='two-column'> 
