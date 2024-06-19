@@ -68,7 +68,7 @@ function App() {
               <h1>Proyecto IDIS - Juliana Hortal</h1>
               {!showDefaultParagraph && (
                 <div  className='return-main' onClick={handleReset}>
-                  <p><u>Volver a Objetivos</u></p>
+                  <p><u>Volver a Inicio</u></p>
                 </div>
               )}
               </div>
@@ -99,14 +99,12 @@ function App() {
                      Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
               </div>      
               <div className="right-column"> 
-                <div className="img-square">
-                </div>
+                <img className="img-square" src="src/fondoIDIS.png"/>
               </div>
           </div>
           <div className='two-column'> 
               <div className="left-column">
-                <div className="img-square">
-                </div>
+                <img className="img-square" src="src/fondoIDIS.png"/>
               </div>  
               <div className="right-column">
                   <h2><u>Introducción</u></h2>
