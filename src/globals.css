@@ -121,10 +121,10 @@ img {
   position: relative;
 }
 .post img {
-  width: 200px;
+  width: 220px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+
 }
 .post:hover .overlay {
   opacity: 1;
@@ -231,7 +231,7 @@ text-align:  center;
 
 
 footer{
-  font-size: 0.5em;
+  font-size: 1.6em;
   text-align: center;
   background-color: #00853f;
   color: #000000;
