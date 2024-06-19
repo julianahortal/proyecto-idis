@@ -65,11 +65,19 @@ body {
 }
 
 
-h1, h2 {
+h1 {
   color: #000000;
   text-align: center;
   font-size: 2em;
   padding: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em;
   font-family: 'Courier New', Courier, monospace;
 }
 p{
