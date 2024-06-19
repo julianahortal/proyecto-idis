@@ -255,6 +255,7 @@ footer{
 }
 
 .img-square {
+    all: unset; 
     max-width: 100%;
     height: auto;
 }
