@@ -65,7 +65,7 @@ body {
 }
 
 
-h1,h2 {
+h1, h2 {
   color: #000000;
   text-align: center;
   font-size: 2em;
@@ -252,6 +252,11 @@ footer{
 .right-column {
     order: 2; /* Adjust the order if you want image on left */
     text-align: right;
+}
+
+.img.square {
+    max-width: 100%;
+    height: auto;
 }
 
 
