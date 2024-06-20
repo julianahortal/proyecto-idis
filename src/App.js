@@ -93,7 +93,9 @@ function App() {
        <>
           <div className='two-column'> 
               <div className="left-column">
-                  <p>Cuando ativa de dedicarme solo a revisar posteos.</p>
+                  <p>Cuando empezó este cuatrimestre, arranqué con la inocente idea de verificar la mayor cantidad posible de posteos de proyectoidis.org, pensando en lograr arreglar, digamos… ¿todo el sitio web? Pero con el tiempo, ese objetivo se fue afinando hasta llegar a donde estamos hoy. 
+En el primer encuentro, vi que mis compañeros tenían en claro lo que querían hacer desde el primer día, y me preguntaba si alguna vez encontraría un tema interesante para compartir con el grupo, del cual investigar y escribir. Me sentía bastante frustrada. Ya venía de hace rato sintiéndome perdida, buscando mi lugar en la carrera, y honestamente me faltaba motivación. Por lo que tomé la iniciativa de dedicarme solo a revisar posteos. 
+</p>
               </div>      
               <div className="right-column"> 
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_a.png" alt=" "/>
@@ -104,13 +106,13 @@ function App() {
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_b.png" alt=" "/>
               </div>
             <div className="right-column">
-                    <p>Mi tarea principal se basó en revisar las entradas del blog, asegurándome que cada uno estuviera en orden: que los enlaces funcionaran, que las imágenes se vieran bien y que las fechas estuvieran correctas. Suena bastante sencillo, pero es increíble la cantidad de detalles que hay que tener en cuenta. <br><br/> 
+                    <p>Mi tarea principal se basó en revisar las entradas del blog, asegurándome que cada uno estuviera en orden: que los enlaces funcionaran, que las imágenes se vieran bien y que las fechas estuvieran correctas. Suena bastante sencillo, pero es increíble la cantidad de detalles que hay que tener en cuenta.
 Revisé alrededor de 250 posteos IDIS y encontré entradas con errores de texto (desde simples erratas hasta problemas de formato), inexactitudes en las fechas (lo cual creaba inconsistencias) y un gran porcentaje de enlaces rotos (que siempre son frustrantes para cualquier usuario).</p>
             </div>      
           </div>
           <div className='two-column'> 
               <div className="left-column">
-                  <p>A la hora de pensar en el formato para el informe final, me surgió la idea de crear una página desde cero. Esto no solo me dio un nuevo propósito, sino que también me permitió ver cómo mi trabajo podía hacer una diferencia real. Sabía que no era tarea fácil, pero me lo propuse de todas formas. <br> <br/> 
+                  <p>A la hora de pensar en el formato para el informe final, me surgió la idea de crear una página desde cero. Esto no solo me dio un nuevo propósito, sino que también me permitió ver cómo mi trabajo podía hacer una diferencia real. Sabía que no era tarea fácil, pero me lo propuse de todas formas.
 El sitio tiene tres filtros que permiten identificar estos errores. Al seleccionar el botón adecuado, se despliega una lista por categoría IDIS de los posteos que fui arreglando, siguiendo la lógica por categoría IDIS. Lo que más me interesaba era poder mostrar que un mismo posteo podía tener más de un solo error.</p>
               </div>      
               <div className="right-column"> 
