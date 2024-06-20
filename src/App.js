@@ -93,8 +93,8 @@ function App() {
        <>
           <div className='two-column'> 
               <div className="left-column">
-                  <p>Cuando empezó este cuatrimestre, arranqué con la inocente idea de verificar la mayor cantidad posible de posteos de <a href="https://proyectoidis.org">proyectoidis.org</a>, pensando en lograr arreglar, digamos… <strong>¿todo el sitio web?</strong> Pero con el tiempo, ese objetivo se fue afinando hasta llegar a donde estamos hoy. <br><br/>
-En el primer encuentro, vi que mis compañeros tenían en claro lo que querían hacer desde el primer día, y me preguntaba si alguna vez encontraría un tema interesante para compartir con el grupo, del cual investigar y escribir. Me sentía bastante frustrada. Ya venía de hace rato sintiéndome perdida, buscando mi lugar en la carrera, y honestamente me faltaba motivación. Por lo que tomé la iniciativa de dedicarme solo a revisar posteos.</p>
+                  <p>Cuando empezó este cuatrimestre, arranqué con la inocente idea de verificar la mayor cantidad posible de posteos de <a href="https://proyectoidis.org">proyectoidis.org</a>, pensando en lograr arreglar, digamos… <strong>¿todo el sitio web?</strong> Pero con el tiempo, ese objetivo se fue afinando hasta llegar a donde estamos hoy. <br><br>
+    En el primer encuentro, vi que mis compañeros tenían en claro lo que querían hacer desde el primer día, y me preguntaba si alguna vez encontraría un tema interesante para compartir con el grupo, del cual investigar y escribir. Me sentía bastante frustrada. Ya venía de hace rato sintiéndome perdida, buscando mi lugar en la carrera, y honestamente me faltaba motivación. Por lo que tomé la iniciativa de dedicarme solo a revisar posteos.</p>
               </div>      
               <div className="right-column"> 
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_a.png" alt=" "/>
