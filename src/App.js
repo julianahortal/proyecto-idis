@@ -101,7 +101,7 @@ En el primer encuentro, vi que mis compañeros tenían en claro lo que querían 
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_a.png" alt=" "/>
               </div>
           </div>
-          <div className='two-column'> 
+          <div className='two-column-2'> 
               <div className="left-column"> 
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_b.png" alt=" "/>
               </div>
