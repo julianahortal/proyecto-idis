@@ -93,9 +93,9 @@ function App() {
        <>
           <div className='two-column'> 
               <div className="left-column">
-                  <p>Durante este cuatrimestre, mi objetivo inicial era <strong>arreglar la mayor cantidad posible de posteos en el sitio web.</strong> Con el tiempo, ese objetivo se fue afinando hasta lograr el resultado actual. <br/> 
-                   Mi tarea fue aquella de verificar que los enlaces funcionaran correctamente, que las imágenes se vieran bien y que las fechas estuvieran correctas. En total, se revisaron alrededor de <strong>250 posteos IDIS</strong> (aproximadamente), encontrando que un <strong>11,58%</strong> tenían <u>errores de texto</u>, un <strong>15,43%</strong> <u>discrepancias en las fechas</u> y un <strong>23,03%</strong> llevaban a <u>enlaces rotos.</u><br/>
-                   Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
+                  <p>Cuando empezó este cuatrimestre, arranqué con la inocente idea de verificar la mayor cantidad posible de posteos de <a>proyectoidis.org</a>, pensando en lograr arreglar, digamos… <strong>¿todo el sitio web?</strong> Pero con el tiempo, ese objetivo se fue afinando hasta llegar a donde estamos hoy. </br></br>
+          En el primer encuentro, vi que mis compañeros tenían en claro lo que querían hacer desde el primer día, y me preguntaba si alguna vez encontraría un tema interesante para compartir con el grupo, del cual investigar y escribir. Me sentía bastante frustrada. Ya venía de hace rato sintiéndome perdida, buscando mi lugar en la carrera, y honestamente me faltaba motivación. Por lo que tomé la iniciativa de dedicarme solo a revisar posteos. 
+          </p>
               </div>      
               <div className="right-column"> 
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_a.png" alt=" "/>
@@ -106,10 +106,20 @@ function App() {
                 <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/informe_b.png" alt=" "/>
               </div>
             <div className="right-column">
-                    <p>Durante este cuatrimestre, mi objetivo inicial era <strong>arreglar la mayor cantidad posible de posteos en el sitio web.</strong> Con el tiempo, ese objetivo se fue afinando hasta lograr el resultado actual. <br/> 
-                     Mi tarea fue aquella de verificar que los enlaces funcionaran correctamente, que las imágenes se vieran bien y que las fechas estuvieran correctas. En total, se revisaron alrededor de <strong>250 posteos IDIS</strong> (aproximadamente), encontrando que un <strong>11,58%</strong> tenían <u>errores de texto</u>, un <strong>15,43%</strong> <u>discrepancias en las fechas</u> y un <strong>23,03%</strong> llevaban a <u>enlaces rotos.</u><br/>
+                    <p>Mi tarea principal se basó en revisar las entradas del blog, asegurándome que cada uno estuviera en orden: que los enlaces funcionaran, que las imágenes se vieran bien y que las fechas estuvieran correctas. Suena bastante sencillo, pero es increíble la cantidad de detalles que hay que tener en cuenta. <br/><br/> 
+Revisé alrededor de 250 posteos IDIS y encontré entradas con errores de texto (desde simples erratas hasta problemas de formato), inexactitudes en las fechas (lo cual creaba inconsistencias) y un gran porcentaje de enlaces rotos (que siempre son frustrantes para cualquier usuario).<br/><br/> 
+                     Mi tarea fue aquella de verificar que los enlaces funcionaran correctamente, que las imágenes se vieran bien y que las fechas estuvieran correctas. En total, se revisaron alrededor de <strong>250 posteos IDIS</strong> (aproximadamente), encontrando que un <strong>11,58%</strong> tenían <u>errores de texto</u>, un <strong>15,43%</strong> <u>discrepancias en las fechas</u> y un <strong>23,03%</strong> llevaban a <u>enlaces rotos.</u><br/><br/>
                     Este sitio cuenta con los <strong>tres filtros de errores propuestos a verificar</strong>, que al seleccionar el botón, despliega el listado por <u>categoría IDIS</u> de aquellos posteos que fui arreglando.</p>
             </div>      
+          </div>
+          <div className='two-column'> 
+              <div className="left-column">
+                  <p>A la hora de pensar en el formato para el informe final, me surgió la idea de crear una página desde cero. Esto no solo me dio un nuevo propósito, sino que también me permitió ver cómo mi trabajo podía hacer una diferencia real. Sabía que no era tarea fácil, pero me lo propuse de todas formas. <br/> <br/> 
+El sitio tiene tres filtros que permiten identificar estos errores. Al seleccionar el botón adecuado, se despliega una lista por categoría IDIS de los posteos que fui arreglando, siguiendo la lógica por categoría IDIS. Lo que más me interesaba era poder mostrar que un mismo posteo podía tener más de un solo error.</p>
+              </div>      
+              <div className="right-column"> 
+                <img className="img-square" src="https://proyectoidis.org/wp-content/uploads/2024/06/Informe_c.png" alt=" "/>
+              </div>
           </div>
           </>
       )}
