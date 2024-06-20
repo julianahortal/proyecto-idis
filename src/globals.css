@@ -239,7 +239,7 @@ footer{
   font-weight: 800;
 }
 
-.two-column, two-column-2{
+.two-column, .two-column-2{
     all: unset;
     display: flex;
     justify-content: center;
